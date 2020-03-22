@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Saif Partners- Reachus</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="reachusstyles.css">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/326d97f04a.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- Favicons -->
+        <link rel="icon" href="news-images/favicon.ico">
+</head>
+<body>
+    <section id="title">
+
+    <div class="container-fluid">
+
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <a class="navbar-brand" href="">Saif Partners</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index3.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index5.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index1.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index2.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index4.html">Reachus</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="reach">
+                    <span>R</span>
+                    <span>e</span>
+                    <span>a</span>
+                    <span>c</span>
+                    <span>h</span>
+                    <span>U</span>
+                    <span>s</span>
+                    
+                  </h1>
+                  <p class="text">Have some Questions? Wanna them to be answered!! <br>
+                    Contact us to have them answered...</p>
+                  
+                  
+                  
+            </div>
+           
+        </div>
+        <!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="reachus-images/1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="reachus-images/2.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="reachus-images/3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="reachus-images/4.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="reachus-images/1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="reachus-images/2.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="reachus-images/3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="reachus-images/4.png" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="reachus-images/1.jpg" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="reachus-images/2.png" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="reachus-images/3.jpg" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="reachus-images/4.png" onclick="currentSlide(4)" alt="Lights">
+    </div>
+  </div>
+</div>
+    </div>
+    
+
+    </section>
+
+    <hr>
+  
+<section id="main">
+  <div class="main2">
+    
+    
+    <div class="Haryana col-lg-6 ">
+     <h2>Find Us</h2>
+     <h4>Address</h4>
+     <p>Unit 1502, 15th Floor, One Horizon Tower, Sector 43, DLF Phase V, Golf Course Road, Gurgaon</p>
+     <p>122002, Haryana, India</p>
+     <table class="table">
+       <tr>
+         <th>Email</th>
+         <th>Phone</th>
+       </tr>
+       <tr>
+         <td>
+          info@saifpartners.com
+         </td>
+         <td>+91 124 4965500</td>
+       </tr>
+     </table>
+     <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.9452166835586!2d77.09601661503211!3d28.451067782489808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18b58c63e25f%3A0x1acdcb475c378a92!2sOne%20Horizon%20Center!5e0!3m2!1sen!2sin!4v1584775047429!5m2!1sen!2sin" width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+    </div>
+    <div class="Bengaluru col-lg-6">
+      <h2>Find Us</h2>
+      <h4>Address</h4>
+      <p>SAIF Partners, Indiqube, Leela Galleria, Sixth Floor, No. 23/4, 6th Cross, 60ft Road, Kodihalli, Old</p>
+      <p>Airport Road, Ward No. 88 (Old No. 74), Bengaluru 560008</p>
+      <table class="table">
+        <tr>
+          <th>Email</th>
+          <th>Phone</th>
+        </tr>
+        <tr>
+          <td>
+           info@saifpartners.com
+          </td>
+          <td>080-46184600</td>
+        </tr>
+      </table>
+      <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.9452166835586!2d77.09601661503211!3d28.451067782489808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18b58c63e25f%3A0x1acdcb475c378a92!2sOne%20Horizon%20Center!5e0!3m2!1sen!2sin!4v1584775047429!5m2!1sen!2sin" width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+
+   </div>
+  </div>
+  <div class="bg-img">
+    <form action="/action_page.php" class="container1">
+      <h1>Send Us Message</h1>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+     
+      <label for="name"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" required>
+  
+      <label for=""><b>Feedback</b></label>
+     <input type="text" placeholder="Enter Feedback" name="feedback" required>
+  
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+</section>
+
+<hr>
+<!-- Call to Action -->
+
+<section id="cta">
+  <div class="info">
+    <div class="newsletter1 col-lg-6">
+        <form action="action_page.php">
+            <div class="container">
+              <h2>Subscribe to our Newsletter</h2>
+              <p class="subscribe">We won't spam you. We promise..</p>
+            </div>
+          
+            <div class="container" style="background-color:white">
+              <input type="text" placeholder="Name" name="name" required>
+              <input type="text" placeholder="Email address" name="mail" required>
+              <label>
+                <input type="checkbox" checked="checked" name="subscribe"> <b>Daily Newsletter</b>
+              </label>
+            </div>
+          
+            <div class="container">
+              <input type="submit" value="Subscribe">
+            </div>
+          </form>
+    </div>
+    <div class="newsletter2 col-lg-6">
+        <h3>Connect To Us</h3>
+        <p class="subscribe">+91 124 4965500</p>
+        <p class="subscribe">info@saifpartners.com</p>
+    </div>
+    <div class="newsletter3 col-lg-6">
+        <h3>Discover</h3>
+        <ul>
+           <li><a href="index3.html" class="subscribe">Portfolio</a></li>
+           <li><a href="index5.html" class="subscribe">Our Team</a></li>
+           <li><a href="index1.html" class="subscribe">About Us</a></li>
+           <li><a href="index2.html" class="subscribe">News</a></li>
+           <li><a href="index4.html" class="subscribe">Reach Us</a></li>
+        </ul>
+    </div>
+  </div>
+
+</section>
+    <!-- Footer -->
+
+    <footer id="footer">
+
+        <i class="social-icons fab fa-facebook-f"></i>
+        <i class="social-icons fab fa-twitter"></i>
+        <i class="social-icons fab fa-instagram"></i>
+        <i class="social-icons fas fa-envelope"></i>
+
+        <p class="footpara">© Copyright 2018 TinDog</p>
+
+    </footer>
+
+    <script src="j1code.js"></script>
+    <script src="reachusjcode.js"></script>
+</body>
+
+
